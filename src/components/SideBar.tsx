@@ -8,17 +8,6 @@ interface GenreResponseProps {
   title: string;
 }
 
-interface MovieProps {
-  imdbID: string;
-  Title: string;
-  Poster: string;
-  Ratings: Array<{
-    Source: string;
-    Value: string;
-  }>;
-  Runtime: string;
-}
-
 interface SideBarProps {
   selectedGenreId: number;
   handleClickButton: (id: number) => void;
